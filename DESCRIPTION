@@ -4,11 +4,11 @@ Version: 0.0.2
 Authors@R: c(
     person("Chester", "Ismay", email = "chester.ismay@gmail.com", role = "cre"),
     person("Nick", "Solomon", email = "nick@nicksolomon.me", role = "aut"))
-Description: Using the bookdown package and LaTeX and Word thesis templates from
-    Reed College, this package aims to encourage reproducible research using
+Description: Using the bookdown package and LaTeX thesis templates from
+    Oxford University, this package aims to encourage reproducible research using
     simple Markdown syntax while embedding all of the R code to produce plots
     and analyses as well.
-Maintainer: Chester Ismay <chester.ismay@gmail.com>
+Maintainer: David Plans <davidplans@gmail.com>
 Depends:
     R (>= 3.2.0),
     devtools,

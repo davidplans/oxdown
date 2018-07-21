@@ -23,7 +23,7 @@ devtools::install_github("davidplans/oxdown")
 ```
 
 To use it, open Rstudio, click on **File > New File > Rmarkdown ...** and then
-select the **Oxford University Thesis** from the **Templates**.
+select the **Oxford University Thesis** option from the **Templates**.
 
 ![New R Markdown](thesis_rmd.png)
 

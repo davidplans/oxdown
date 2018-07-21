@@ -1,17 +1,18 @@
 ---
 author: 'Your R. Name'
 date: 'May 20xx'
-institution: 'Reed College'
+institution: 'Oxford University'
+college: 'Brasenose'
 division: 'Mathematics and Natural Sciences'
 advisor: 'Advisor F. Name'
 #altadvisor: 'Your Other Advisor'
 # Delete line 6 if you only have one advisor
-department: 'Mathematics'
-degree: 'Bachelor of Arts'
-title: 'My Final College Paper'
+department: 'Psychology'
+degree: 'DPhil'
+title: 'DPhil Thesis'
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
-output: 
+output:
 #  thesisdown::thesis_pdf: default
   thesisdown::thesis_gitbook: default
 #  thesisdown::thesis_word: default
@@ -22,14 +23,14 @@ output:
 abstract: |
   `r if(knitr:::is_latex_output()) paste(readLines("00-abstract.Rmd"), collapse = '\n  ')`
 # If you'd rather include the preliminary content in files instead of inline
-# like below, use a command like that for the abstract above.  Note that a tab is 
+# like below, use a command like that for the abstract above.  Note that a tab is
 # needed on the line after the |.
 acknowledgements: |
   I want to thank a few people.
 dedication: |
-  You can have a dedication here if you wish. 
+  You can have a dedication here if you wish.
 preface: |
-  This is an example of a thesis setup to use the reed thesis document class
+  This is an example of a thesis setup to use the Oxford thesis document class
   (for LaTeX) and the R bookdown package, in general.
 bibliography: bib/thesis.bib
 # Download your specific bibliography database file and refer to it in the line above.
@@ -78,19 +79,19 @@ on chapters.
 
 # Introduction {.unnumbered}
 
-Welcome to the _R Markdown_ thesis template. This template is based on (and in many places copied directly from) the Reed College LaTeX template, but hopefully it will provide a nicer interface for those that have never used TeX or LaTeX before.  Using _R Markdown_ will also allow you to easily keep track of your analyses in **R** chunks of code, with the resulting plots and output included as well.  The hope is this _R Markdown_ template gets you in the habit of doing reproducible research, which benefits you long-term as a researcher, but also will greatly help anyone that is trying to reproduce or build onto your results down the road.
+Welcome to the _R Markdown_ thesis template. This template is based on (and in many places copied directly from) Oxford University's LaTeX template, but hopefully it will provide a nicer interface for those that have never used TeX or LaTeX before.  Using _R Markdown_ will also allow you to easily keep track of your analyses in **R** chunks of code, with the resulting plots and output included as well.  The hope is this _R Markdown_ template gets you in the habit of doing reproducible research, which benefits you long-term as a researcher, but also will greatly help anyone that is trying to reproduce or build onto your results down the road.
 
 Hopefully, you won't have much of a learning period to go through and you will reap the benefits of a nicely formatted thesis.  The use of LaTeX in combination with _Markdown_ is more consistent than the output of a word processor, much less prone to corruption or crashing, and the resulting file is smaller than a Word file. While you may have never had problems using Word in the past, your thesis is likely going to be about twice as large and complex as anything you've written before, taxing Word's capabilities.  After working with _Markdown_ and **R** together for a few weeks, we are confident this will be your reporting style of choice going forward.
 
-<!-- 
-If you're still on the fence about using _R Markdown_, check out the resource for newbies available at <https://ismayc.github.io/rbasics-book/> or email us at <data@reed.edu>. 
+<!--
+If you're still on the fence about using _R Markdown_, check out the resource for newbies available at <https://ismayc.github.io/rbasics-book/> or email us at <data@reed.edu>.
 -->
 
 **Why use it?**
 
 _R Markdown_ creates a simple and straightforward way to interface with the beauty of LaTeX.  Packages have been written in **R** to work directly with LaTeX to produce nicely formatting tables and paragraphs. In addition to creating a user friendly interface to LaTeX, _R Markdown_ also allows you to read in your data, to analyze it and to visualize it using **R** functions, and also to provide the documentation and commentary on the results of your project.  Further, it allows for **R** results to be passed inline to the commentary of your results.  You'll see more on this later.  
 
-<!-- 
+<!--
 Having your code and commentary all together in one place has a plethora of benefits!
 -->
 
