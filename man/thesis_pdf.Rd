@@ -12,16 +12,15 @@ thesis_pdf(toc = TRUE, toc_depth = 3, ...)
 \item{toc_depth}{A positive integer}
 }
 \value{
-A modified \code{pdf_document} based on the Reed Senior Thesis LaTeX
+A modified \code{pdf_document} based on the Oxford Thesis LaTeX
   template
 }
 \description{
 This is a function called in output in the YAML of the driver Rmd file
-to specify using the Reed College Senior Thesis LaTeX template and cls files.
+to specify using the Oxford University Thesis LaTeX template and cls files.
 }
 \examples{
 \dontrun{
  output: thesisdown::thesis_pdf
 }
 }
-
